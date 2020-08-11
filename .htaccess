@@ -1,0 +1,19 @@
+#This Apache config file was created by Duplicator Installer on 2020-08-11 08:15:08.
+#The original can be found in archived file with the name .htaccess__[HASH]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /tim/prjsjwick2/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /tim/prjsjwick2/index.php [L]
+</IfModule>
+# END WordPress
+# BEGIN FRedirect_ErrorDocument
+# The directives (lines) between `BEGIN FRedirect_ErrorDocument` and `END FRedirect_ErrorDocument` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+ErrorDocument 404 /tim/prjsjwick2/index.php?error=404
+# END FRedirect_ErrorDocument
