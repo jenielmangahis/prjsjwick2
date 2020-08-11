@@ -64,12 +64,12 @@
 				$items = wp_get_nav_menu_items( 'MAIN-MENU', $menuargs);
 			?>
 			<nav class="clearfix">
-				<ul id="header-desktop-menu" class="header-desktop-menu">
+				<!-- <ul id="header-desktop-menu" class="header-desktop-menu">
 					<?php foreach( $items as $item ){ ?>
 						<li class="menu-item"><a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a></li>
 					<?php } ?>
 						<li class="menu-item"><a href="#"><i class="fa fa-search search-nav" aria-hidden="true"></i></a></li>
-				</ul>
+				</ul> -->
 			</nav>
 		</div>
 	</div>

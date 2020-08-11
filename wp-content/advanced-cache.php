@@ -8,9 +8,9 @@ defined( 'ABSPATH' ) || exit;
 
 define( 'WP_ROCKET_ADVANCED_CACHE', true );
 
-$rocket_path        = 'C:\xampp\htdocs\tim\prjsjwick2\wp-content\plugins\wp-rocket/';
-$rocket_config_path = 'C:\xampp\htdocs\tim\prjsjwick2/wp-content/wp-rocket-config/';
-$rocket_cache_path  = 'C:\xampp\htdocs\tim\prjsjwick2/wp-content/cache/wp-rocket/';
+$rocket_path        = '/Applications/MAMP/htdocs/tim/wordpress/sjwick2/wp-content/plugins/wp-rocket/';
+$rocket_config_path = '/Applications/MAMP/htdocs/tim/wordpress/sjwick2/wp-content/wp-rocket-config/';
+$rocket_cache_path  = '/Applications/MAMP/htdocs/tim/wordpress/sjwick2/wp-content/cache/wp-rocket/';
 
 if (
 	version_compare( phpversion(), '5.6', '<' )
@@ -23,8 +23,8 @@ if (
 }
 
 
-if ( file_exists( 'C:\xampp\htdocs\tim\prjsjwick2\wp-content\plugins\wp-rocket\inc\vendors/classes/class-rocket-mobile-detect.php' ) && ! class_exists( 'Rocket_Mobile_Detect' ) ) {
-	include_once 'C:\xampp\htdocs\tim\prjsjwick2\wp-content\plugins\wp-rocket\inc\vendors/classes/class-rocket-mobile-detect.php';
+if ( file_exists( '/Applications/MAMP/htdocs/tim/wordpress/sjwick2/wp-content/plugins/wp-rocket/inc/vendors/classes/class-rocket-mobile-detect.php' ) && ! class_exists( 'Rocket_Mobile_Detect' ) ) {
+	include_once '/Applications/MAMP/htdocs/tim/wordpress/sjwick2/wp-content/plugins/wp-rocket/inc/vendors/classes/class-rocket-mobile-detect.php';
 }
 
 
