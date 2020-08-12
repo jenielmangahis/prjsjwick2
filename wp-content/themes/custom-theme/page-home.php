@@ -81,7 +81,7 @@ Template Name: Homepage
     <div class="container-80">
       <div class="col-2 left">
         <a href="/services/business-consulting/">
-          <img class="home-icon-service" src="https://sjwickcpa.com/wp-content/uploads/2018/07/business-consulting-150x150.png" alt="" width="150" height="150">
+          <img class="home-icon-service" src="<?php bloginfo('template_directory'); ?>/images/homepage/business-consulting-150x150.png" alt="" width="150" height="150">
         </a>
         <h5 class="text-center txt-service">
           <a href="/services/business-consulting/">BUSINESS CONSULTING</a>
@@ -89,7 +89,7 @@ Template Name: Homepage
       </div>
       <div class="col-2 left">
         <a href="/services/business-consulting/">
-          <img class="home-icon-service" src="https://sjwickcpa.com/wp-content/uploads/2018/07/payroll-services-150x150.png" alt="" width="150" height="150">
+          <img class="home-icon-service" src="<?php bloginfo('template_directory'); ?>/images/homepage/payroll-services-150x150.png" alt="" width="150" height="150">
         </a>
         <h5 class="text-center txt-service">
           <a href="/services/business-consulting/">PAYROLL & TAX SERVICES</a>
@@ -97,7 +97,7 @@ Template Name: Homepage
       </div>
       <div class="col-2 left">
         <a href="/services/business-consulting/">
-          <img class="home-icon-service" src="https://sjwickcpa.com/wp-content/uploads/2018/07/small-business-packages-150x150.png" alt="" width="150" height="150">
+          <img class="home-icon-service" src="<?php bloginfo('template_directory'); ?>/images/homepage/small-business-packages-150x150.png" alt="" width="150" height="150">
         </a>
         <h5 class="text-center txt-service">
           <a href="/services/business-consulting/">SMALL BUSINESS PACKAGES</a>
@@ -105,7 +105,7 @@ Template Name: Homepage
       </div>
       <div class="col-2 left">
         <a href="/services/business-consulting/">
-          <img class="home-icon-service" src="https://sjwickcpa.com/wp-content/uploads/2018/07/taxes-150x150.png" alt="" width="150" height="150">
+          <img class="home-icon-service" src="<?php bloginfo('template_directory'); ?>/images/homepage/taxes-150x150.png" alt="" width="150" height="150">
         </a>
         <h5 class="text-center txt-service">
           <a href="/services/business-consulting/">OUTSOURCED CFO SERVICES</a>
@@ -113,7 +113,7 @@ Template Name: Homepage
       </div>
       <div class="col-2 left">
         <a href="/services/business-consulting/">
-          <img class="home-icon-service" src="https://sjwickcpa.com/wp-content/uploads/2018/07/online-book-keeping-150x150.png" alt="" width="150" height="150">
+          <img class="home-icon-service" src="<?php bloginfo('template_directory'); ?>/images/homepage/online-book-keeping-150x150.png" alt="" width="150" height="150">
         </a>
         <h5 class="text-center txt-service">
           <a href="/services/business-consulting/">QUICKBOOKS ACCOUNTING</a>
