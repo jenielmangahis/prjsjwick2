@@ -26,10 +26,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<?php wp_head(); ?>
-	<?php if ( is_front_page() && is_home() ) { ?>
 	<link rel='preload' href='http://holisticwebdevelopment3.com/sjwickcpav2/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888' as='font' type='font/woff' crossorigin>
 	<link rel='preload' href='http://holisticwebdevelopment3.com/sjwickcpav2/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' as='font' type='font/woff' crossorigin>
-	<?php } ?>
 </head>
 <body>
 <section class="home-top">
