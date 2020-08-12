@@ -56,10 +56,10 @@
 	<div class="navigation-container">
 		<div class="col-5 left pl-0 pr-0 home-logo">
 			<div id="logo">
-				<img src="http://localhost/tim/wordpress/prjsjwick2/wp-content/uploads/2018/07/long-logo.png" class="logo-default" />
+				<img src="https://sjwickcpa.com/wp-content/uploads/2018/07/long-logo.png" class="logo-default" />
 			</div>
 		</div>
-		<div class="col-7 left pl-0 pr-0 nav-desktop">
+		<div class="col-7 left pl-0 pr-0 nav-desktop cl-collapse pos-inherit">
 			<?php
 				$v = 0;
 				$menuargs = array(
@@ -69,13 +69,90 @@
 				);
 				$items = wp_get_nav_menu_items( 'MAIN-MENU', $menuargs);
 			?>
-			<nav class="clearfix">
-				<!-- <ul id="header-desktop-menu" class="header-desktop-menu">
-					<?php foreach( $items as $item ){ ?>
-						<li class="menu-item"><a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a></li>
-					<?php } ?>
+			<nav class="clearfix pos-inherit">
+				<ul id="header-desktop-menu" class="header-desktop-menu pos-inherit">
+						<li class="menu-item"><a href="#">Home</a></li>
+						<li class="menu-item carit pos-inherit">
+							<a href="#">About us</a>
+							<div class="sub-menu">
+								<div class="col-3 left">
+									<a class="bold no-carit" href="#">Services</a>
+									<a class="no-carit pointer" href="">Accounting &amp; Bookkeeping</a>
+									<a class="no-carit pointer" href="">Business Consulting</a>
+									<a class="no-carit pointer" href="">CFO Services</a>
+									<a class="no-carit pointer" href="">Payroll</a>
+									<a class="no-carit pointer" href="">QuickBooks Accounting</a>
+									<a class="no-carit pointer" href="">Small Business Package</a>
+									<a class="no-carit pointer" href="">Tax Service</a>
+								</div>
+								<div class="col-3 left">
+									<a class="bold no-carit" href="#">Industries</a>
+									<a class="no-carit pointer" href="">Construction Accounting</a>
+									<a class="no-carit pointer" href="">Manufacturing Accounting</a>
+									<a class="no-carit pointer" href="">Restaurant Business</a>
+									<a class="no-carit pointer" href="">Retail &amp; Wholesale Accounting</a>
+								</div>
+								<div class="col-3 left">
+									<a class="bold no-carit" href="#">Our Office</a>
+									<a class="no-carit pointer" href="">About Us</a>
+									<a class="no-carit pointer" href="">Steve Wick</a>
+									<a class="no-carit pointer" href="">Staff Members</a>
+									<a class="no-carit pointer" href="">Testimonials</a>
+									<a class="no-carit pointer" href="">What’s Important to Us</a>
+								</div>
+								<div class="col-3 left">
+									<a class="bold no-carit" href="#">Serving Clients In</a>
+									<a class="no-carit pointer" href="">Loveland</a>
+									<a class="no-carit pointer" href="">Fort Collins</a>
+									<a class="no-carit pointer" href="">Windsor</a>
+									<a class="no-carit pointer" href="">Greeley</a>
+									<a class="no-carit pointer" href="">Wellington</a>
+									<a class="no-carit pointer" href="">Timnath</a>
+									<a class="no-carit pointer" href="">Berthoud</a>
+								</div>
+							</div>
+						</li>
+						<li class="menu-item carit">
+							<a href="#">Tools</a>
+							<div class="sub-menu">
+								<div class="col-3 left">
+									<a class="bold no-carit" href="#">Forms for Payroll &amp; Employee Files</a>
+									<a class="no-carit pointer" href="http://www.uscis.gov/sites/default/files/files/form/i-9.pdf">Immigration I-9 Form</a>
+									<a class="no-carit pointer" href="http://www.irs.gov/pub/irs-pdf/fw4.pdf?portlet=3">W-4 Form</a>
+									<a class="no-carit pointer" href="https://voffice.dillners.com/resources/R134/Colorado%20Affirmation%20Form.pdf">Colorado Affirmative Action Form</a>
+									<a class="no-carit pointer" href="http://www.colorado.gov/cs/Satellite/CDLE-LaborLaws/CDLE/1240336908932">Colorado Employee Verification Requirements</a>
+								</div>
+								<div class="col-3 left">
+									<a class="bold no-carit" href="#">Forms for Independent Contractors</a>
+									<a class="no-carit pointer" href="http://www.irs.gov/pub/irs-pdf/fw9.pdf?portlet=3">W9 For</a>
+									<a class="no-carit pointer" href="https://voffice.dillners.com/resources/R134/independent%20contractor%20form.pdf">Independent Contractors – Pinnacol Insurance</a>
+								</div>
+								<div class="col-3 left">
+									<a class="bold no-carit" href="#">Orgainzers &amp; More</a>
+									<a class="no-carit pointer" href="https://voffice.dillners.com/resources/R134/YE%20Business%20Questionaire.pdf">Year End Income Tax Organizer</a>
+									<a class="no-carit pointer" href="http://www.ssa.gov/myaccount/">Online Social Security Statements</a>
+									<a class="no-carit pointer" href="https://voffice.dillners.com/resources/R134/Third%20Party%20Disclosurer%20Authorization.pdf">Third Party Authorization</a>
+									<a class="no-carit pointer" href="https://sjwickcpa.com/wp-content/uploads/2017/02/Year-End-W2.doc">Payroll &amp; 1099 Year End Info<</a>
+									<a class="no-carit pointer" href="https://sjwickcpa.com/wp-content/uploads/2017/02/2016-Ind-Tax-Organizer.pdf">Personal Income Tax Organizer</a>
+								</div>
+								<div class="col-3 left">
+									<a class="bold no-carit" href="#">Taxes &amp; Tips</a>
+									<a class="no-carit pointer" href="">Tips for Business Owners</a>
+									<a class="no-carit pointer" href="">Blog</a>
+								</div>
+							</div>
+						</li>
+						<li class="menu-item carit">
+							<a href="#">Support</a>
+							<div class="sub-menu-small">
+								<div class="col-12 left">
+									<a class="no-carit pointer" href="http://www.uscis.gov/sites/default/files/files/form/i-9.pdf">Teamviewer</a>
+								</div>
+							</div>
+						</li>
+						<li class="menu-item"><a href="#">Contact</a></li>
 						<li class="menu-item"><a href="#"><i class="fa fa-search search-nav" aria-hidden="true"></i></a></li>
-				</ul> -->
+				</ul>
 			</nav>
 		</div>
 	</div>
