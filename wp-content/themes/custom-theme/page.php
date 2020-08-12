@@ -1,4 +1,4 @@
-<?php get_header('pages'); ?>
+<?php get_header(); ?>
 <section class="page-content">
   <div class="col-12 pr-0 pl-0 home-nav-container">
   	<div class="container page-content pl-0 pr-0 pt-4">
