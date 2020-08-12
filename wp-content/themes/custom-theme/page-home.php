@@ -4,11 +4,11 @@ Template Name: Homepage
  */
 ?>
 <?php get_header(); ?>
-<?php 
+<?php
   if( wp_is_mobile() ){
-    echo do_shortcode('[rev_slider alias="sjwickmobile"]'); 
+    echo do_shortcode('[rev_slider alias="sjwickmobile"]');
   }else{
-    echo do_shortcode('[rev_slider alias="sjwick"]'); 
+    echo do_shortcode('[rev_slider alias="sjwick"]');
   }
 ?>
 <section class="home-partnership">
@@ -175,8 +175,10 @@ Template Name: Homepage
   </div>
 </section>
 <section class="home-testimonial">
-  <h1 style="text-align: center;"><strong>Testimonials</strong></h1>
-  <p><?php echo do_shortcode('[testimonial_view id="1"]'); ?></p>
+  <div class="container">
+    <h2 class="text-center text-white uppercase"><strong>Testimonials</strong></h2>
+    <p><?php echo do_shortcode('[testimonial_view id="1"]'); ?></p>
+  </div>
 </section>
 <section class="home-ads">
   <div class="container ads-card">

@@ -62,8 +62,12 @@
     $(document).on("scroll", function(){
         if($(document).scrollTop() > 100){
           $("#logo").addClass("shrink");
+          $(".nav-desktop").removeClass("cl-collapse");
+          $(".nav-desktop").addClass("cl-hide");
         }else{
           $("#logo").removeClass("shrink");
+          $(".nav-desktop").addClass("cl-collapse");
+          $(".nav-desktop").removeClass("cl-hide");
         }
     });
 
