@@ -1,12 +1,13 @@
 <?php
 /**
-Template Name: Contact Us
+Template Name: Page Inner
  */
 ?>
 <?php get_header(); ?>
 <section class="page-banner">
-
+  
 </section>
+
 <section class="page-content">
   <div class="col-12 pr-0 pl-0 home-nav-container">
     <div class="container page-content pl-0 pr-0 pt-4">
@@ -26,9 +27,15 @@ Template Name: Contact Us
   </div>
 </section>
 
-<section class="home-testimonial size-cover">
-  <div class="container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3032.857394544156!2d-105.025917!3d40.522643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDMxJzIxLjUiTiAxMDXCsDAxJzMzLjMiVw!5e0!3m2!1sen!2sph!4v1596615322390!5m2!1sen!2sph" width="1000" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<section class="home-consultation">
+  <div class="container sc-consultation">
+    <div class="col-8 left">
+      <h2 class="uppercase">get a free consultation</h2>
+    </div>
+    <div class="col-4 left">
+      <a class="et-button" href="/contact" data-icon="Z">Get Started!</a>
+    </div>
   </div>
+  <br class="clearfix"/>
 </section>
 <?php get_footer(); ?>

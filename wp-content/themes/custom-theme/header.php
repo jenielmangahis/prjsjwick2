@@ -26,10 +26,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<?php wp_head(); ?>
-	<?php if ( is_front_page() && is_home() ) { ?>
 	<link rel='preload' href='http://holisticwebdevelopment3.com/sjwickcpav2/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888' as='font' type='font/woff' crossorigin>
 	<link rel='preload' href='http://holisticwebdevelopment3.com/sjwickcpav2/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' as='font' type='font/woff' crossorigin>
-	<?php } ?>
 </head>
 <body>
 <section class="home-top">
@@ -53,10 +51,14 @@
 	</div>
 </section>
 <section class="home-navigation desktop-only">
+	<?php 
+	$custom_logo_id = get_theme_mod( 'custom_logo' );
+	$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+	?>
 	<div class="navigation-container">
 		<div class="col-5 left pl-0 pr-0 home-logo">
 			<div id="logo">
-				<img src="https://sjwickcpa.com/wp-content/uploads/2018/07/long-logo.png" class="logo-default" />
+				<img src="<?= $image[0]; ?>" class="logo-default" />
 			</div>
 		</div>
 		<div class="col-7 left pl-0 pr-0 nav-desktop cl-collapse pos-inherit">
@@ -151,7 +153,7 @@
 							</div>
 						</li>
 						<li class="menu-item"><a href="#">Contact</a></li>
-						<li class="menu-item"><a href="#"><i class="fa fa-search search-nav" aria-hidden="true"></i></a></li>
+						<!-- <li class="menu-item"><a href="#"><i class="fa fa-search search-nav" aria-hidden="true"></i></a></li> -->
 				</ul>
 			</nav>
 		</div>
