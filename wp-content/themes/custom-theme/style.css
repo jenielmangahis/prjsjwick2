@@ -486,3 +486,27 @@ h1.sc-title {
       display: none !important;
   }
 }
+
+#logo 
+{
+   width:200px;/*give it a fixed size*/
+}
+
+#logo img 
+{
+   height:100px;
+   -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 1s ease-in-out ;
+   -ms-transition: all 1s ease-in-out ;
+   -o-transition: all 1s ease-in-out ;
+   transition: all 1s ease-in-out ;
+}
+.shrink img 
+{
+   height:51px !important;/*change the size here*/
+   -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 1s ease-in-out ;
+   -ms-transition: all 1s ease-in-out ;
+   -o-transition: all 1s ease-in-out ;
+   transition: all 1s ease-in-out ;
+}

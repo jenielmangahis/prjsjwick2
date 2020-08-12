@@ -46,7 +46,7 @@
   <div class="footer-bottom col-12 pl-0 pr-0">
     <div class="container clearfix pl-0 pr-0">
       <div class="col-7 left pl-0 pr-0">
-        <span class="footer-copyright montserrat">Copyright All Rights Reserved © 2013 - 2020</span>
+        <span class="footer-copyright montserrat">Copyright All Rights Reserved © 2013 - <?php echo date("Y"); ?></span>
       </div>
       <div class="col-5 left pl-0 pr-0">
         <ul class="copyright-social">
@@ -59,10 +59,19 @@
 </div>
 <script>
   $(function() {
+    $(document).on("scroll", function(){
+        if($(document).scrollTop() > 100){
+          $("#logo").addClass("shrink");
+        }else{
+          $("#logo").removeClass("shrink");
+        }
+    });
+
     $('#carousel-a, #carousel-b').carousel({
       pause: true,
       interval: false
     });
+
     $('div.parallelogram-mobile-default').click(function() {
       if ($('section.home-mobile-menu').hasClass('hide-mobile')) {
         $('section.home-mobile-menu').removeClass('hide-mobile');
