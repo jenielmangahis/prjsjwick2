@@ -632,4 +632,18 @@ function wpcf7_external_post($cf7) {
     return $wpcf;
 }
 
+add_action( 'wp_print_styles',     'my_deregister_styles', 100 );
+function my_deregister_styles()    { 
+   if (current_user_can( 'update_core' )) {
+            return;
+   }
+   wp_deregister_style('dashicons');
+}
+function js_async_attr($tag){
+   if( !is_admin() ){
+       return str_replace( ' src', ' defer src', $tag );
+   }
+}
+//add_filter( 'script_loader_tag', 'js_async_attr', 10 );
+
 
