@@ -70,6 +70,9 @@
           $(".nav-desktop").removeClass("cl-hide");
         }
     });
+    
+    var newsrc = $("#home-video").attr('data-src');
+    $("#home-video").attr('src', newsrc );
   });
 </script>
 <?php wp_footer();?>

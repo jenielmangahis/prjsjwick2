@@ -53,10 +53,14 @@
 	</div>
 </section>
 <section class="home-navigation desktop-only">
+	<?php 
+	$custom_logo_id = get_theme_mod( 'custom_logo' );
+	$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+	?>
 	<div class="navigation-container">
 		<div class="col-5 left pl-0 pr-0 home-logo">
 			<div id="logo">
-				<img src="https://sjwickcpa.com/wp-content/uploads/2018/07/long-logo.png" class="logo-default" />
+				<img src="<?= $image[0]; ?>" class="logo-default" />
 			</div>
 		</div>
 		<div class="col-7 left pl-0 pr-0 nav-desktop cl-collapse pos-inherit">
@@ -151,7 +155,7 @@
 							</div>
 						</li>
 						<li class="menu-item"><a href="#">Contact</a></li>
-						<li class="menu-item"><a href="#"><i class="fa fa-search search-nav" aria-hidden="true"></i></a></li>
+						<!-- <li class="menu-item"><a href="#"><i class="fa fa-search search-nav" aria-hidden="true"></i></a></li> -->
 				</ul>
 			</nav>
 		</div>

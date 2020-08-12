@@ -66,7 +66,7 @@ Template Name: Homepage
         </div>
       </div>
       <div class="col-6 left pl-3">
-        <iframe class="steve-stream" title="Steve J Wick &amp; Associates Intro" src="https://www.youtube.com/embed/IfK01LSpbz4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0"></iframe>
+        <iframe class="steve-stream" title="Steve J Wick &amp; Associates Intro" src="" data-src="https://www.youtube.com/embed/IfK01LSpbz4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0"></iframe>
       </div>
     </div>
     <br class="clearfix"/>
