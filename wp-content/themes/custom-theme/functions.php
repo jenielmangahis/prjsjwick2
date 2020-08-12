@@ -17,6 +17,11 @@ if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
 	return;
 }
 
+if (!is_admin()) {
+    wp_deregister_script('jquery');                                     
+    wp_register_script('jquery', '', '', '', true);
+}
+
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
