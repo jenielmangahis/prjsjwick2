@@ -13,19 +13,22 @@
 <head>
 	<meta charset="utf-8"/>
 	<title><?php bloginfo('title');?></title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A100%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COxygen%3A300%2Cregular%2C700%7CMontserrat%3A700%2C400%2C900%26amp%3Bsubset%3Dlatin&amp;subset=latin%2Call&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link href="<?php bloginfo('template_directory'); ?>/favicon.png" rel="shortcut icon">
+	<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A100%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COxygen%3A300%2Cregular%2C700%7CMontserrat%3A700%2C400%2C900%26amp%3Bsubset%3Dlatin&amp;subset=latin%2Call&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="<?php bloginfo('template_directory'); ?>/favicon.png" rel="shortcut icon">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/mobile_menu.css?<?php echo date('l jS \of F Y h:i:s A'); ?>">
-	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
+	<script defer type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
 	<link rel='stylesheet' id='main style-css'  href='<?php bloginfo('template_directory'); ?>/style.css?<?php echo date('l jS \of F Y h:i:s A'); ?>' media='all' />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<?php wp_head(); ?>
+	<?php if ( is_front_page() && is_home() ) { ?>
+	<link rel='preload' href='http://holisticwebdevelopment3.com/sjwickcpav2/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888' as='font' type='font/woff' crossorigin>
+	<link rel='preload' href='http://holisticwebdevelopment3.com/sjwickcpav2/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' as='font' type='font/woff' crossorigin>
+	<?php } ?>
 </head>
 <body>
 <section class="home-top">
