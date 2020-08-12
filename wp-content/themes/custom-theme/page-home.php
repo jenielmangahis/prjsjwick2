@@ -124,8 +124,58 @@ Template Name: Homepage
     </div>
   </div>
 </section>
-<br class="clearfix"/>
-<br/>
+<section class="home-un-access">
+  <div class="bg-subtle-brown">
+    <div class="container card-acs pl-0 pr-0">
+      <div class="col-6 left spb-4">
+        <div class="dots-list">
+          <ol>
+            <li>
+              <h4 class="text-black text-default">Construction Accounting</h4>
+            </li>
+            <li>
+              <h4 class="text-black text-default">Manufacturing Accounting</h4>
+            </li>
+            <li>
+              <h4 class="text-black text-default">Restaurant Business Accounting</h4>
+            </li>
+            <li>
+              <h4 class="text-black text-default">Retail &amp; Wholesale Accounting</h4>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="col-6 left pl-0 pr-0">
+        <div class="bg-brown-card">
+          <div>
+            <h3 class="et_pb_module_header text-white text-center uppercase montserrat text-shadow">Unlimited Access</h3>
+            <div class="text-white text-center uppercase montserrat">We are your team of accounting professionals, here to help you whenever you need us</div>
+          </div>
+        </div>
+        <div class="container-description">
+          <p>We want to be that resource for you. We work directly with you to not only reconcile the bookkeeping, but to plan and advise you, based on the numbers. The best part of our plan is&nbsp;<strong>NO HOURLY FEE!</strong>&nbsp;That means unlimited access to our professionals and all the help you need for one low monthly retainer. No surprises! By partnering with us, you can gain peace of mind knowing that your business’ financial needs are in good hands.</p>
+          <p>Based out of Fort Collins, CPA and accountant Steven J. Wick’s&nbsp;mission as a financial advisor is to work side-by-side with our clients to reduce their tax burden, improve their accounting systems, and inspire them to balance profit and growth.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="cutout">
+</section>
+<section class="home-accounting">
+  <div class="container accounting-card">
+    <h3 class="montserrat text-center">Accounting v. Bookkeeping</h3>
+    <p class="pl-3 pr-3 montserrat text-center">Good&nbsp;<em>bookkeeping</em>&nbsp;helps keep your finances in order, but it does not, however, advise you on the best decisions to make; if it’s wise to invest in certain areas of business, or even simply if your business is profitable. It takes&nbsp;<em>accounting</em>&nbsp;to do that, and from an experienced financial advisor. A skilled Fort Collins CPA can help translate the numbers and allow you to make meaningful insights as to the status of your business and the direction it will go.</p>
+  </div>
+</section>
+<section class="home-testimonial">
+
+</section>
+<section class="home-ads">
+  <div class="container ads-card">
+    <img src="<?php bloginfo('template_directory'); ?>/images/homepage/footer-banner.jpg" class="img-ads">
+  </div>
+</section>
 <section class="home-consultation">
   <div class="container sc-consultation">
     <div class="col-8 left">

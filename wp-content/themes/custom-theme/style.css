@@ -123,6 +123,86 @@ a:hover, a:hover > i {
 }
 .logo-default {
     max-height: 100%;
+    position: relative;
+    bottom: 6px;
+}
+.bg-subtle-brown {
+    padding-top: 138px;
+    padding-right: 0px;
+    padding-bottom: 125px;
+    padding-left: 0px;
+    background-image: url('images/homepage/bg-brown.jpg');
+    width: 100%;
+    min-height: 200px;
+    background-size: cover;
+}
+section.home-ads {
+    padding: 50px 0px;
+}
+section.home-testimonial {
+    background-image: url('images/homepage/collins.jpg');
+    background-blend-mode: overlay;
+    background-color: rgba(0,38,52,0.78) !important;
+    min-height: 500px;
+}
+.ads-card {
+    background: white;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+    padding: 27px 0;
+}
+img.img-ads {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+.accounting-card {
+    background-color: rgba(204,147,48,0.19);
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+    padding-top: 34px!important;
+    padding-right: 81px!important;
+    padding-bottom: 36px!important;
+    padding-left: 81px!important;
+}
+section.home-accounting {
+    padding-bottom: 90px;
+}
+.cutout {
+    width: 100%;
+    background-image: url(images/homepage/cutout.svg);
+    height: 100px;
+    background-size: cover;
+    position: relative;
+    bottom: 98px;
+}
+.card-acs {
+    background-color: #ffffff;
+    border-radius: 1px 1px 1px 1px;
+    overflow: hidden;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}
+.text-black {
+    color: black !important;
+}
+.text-white {
+    color: white !important;
+}
+.text-default {
+    font-size: 20px !important;
+}
+.bg-brown-card {
+    background-color: #cc9330;
+    width: 100%;
+    padding: 30px 20px 30px 30px;
+}
+.text-shadow {
+    text-shadow: 0em 0.08em 0em rgba(0,0,0,0.4)!important;
+}
+.spb-4 {
+    padding-top: 9vh;
+}
+.container-description {
+    padding: 30px 20px 30px 0px;
+    font-family: 'Oxygen',Helvetica,Arial,Lucida,sans-serif;
 }
 /* HEADER MENU */
 #main-footer {
@@ -157,7 +237,7 @@ ul.copyright-social li a i {
     color: #4c4c4c;
 }
 .body-content {
-    padding-top: 158px;
+    padding-top: 150px;
     z-index: 1;
 }
 ul#header-desktop-menu li a:hover i.search-nav {
@@ -197,40 +277,6 @@ ul#header-desktop-menu li a {
 .nav-desktop {
     padding: 53px 0 0 0;
 }
-/* FOOTER CSS */
-.service-list {
-    padding-left: 20px;
-}
-.service-list li {
-    padding-bottom: 10px;
-}
-.service-list li a:hover {
-    color: #cc9330 !important;
-}
-.link-footer {
-    color: #cc9330 !important;
-}
-.col-4.left.sr-2 {
-    position: relative;
-    right: 22px;
-    bottom: 2px;
-}
-.service-list li a {
-    text-transform: uppercase;
-    color: #cc9330;
-}
-@media (max-width: 1000px) {
-  body {
-    overflow-x: hidden;
-  }
-  .mobile-only {
-      display: block !important;
-  }
-  .desktop-only {
-      display: none !important;
-  }
-}
-
 .steve-stream {
     width: 100%;
     height: 300px;
@@ -406,4 +452,37 @@ h1.sc-title {
     width: 80%;
     margin: 0 auto;
     display: block;
+}
+/* FOOTER CSS */
+.service-list {
+    padding-left: 20px;
+}
+.service-list li {
+    padding-bottom: 10px;
+}
+.service-list li a:hover {
+    color: #cc9330 !important;
+}
+.link-footer {
+    color: #cc9330 !important;
+}
+.col-4.left.sr-2 {
+    position: relative;
+    right: 22px;
+    bottom: 2px;
+}
+.service-list li a {
+    text-transform: uppercase;
+    color: #cc9330;
+}
+@media (max-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mobile-only {
+      display: block !important;
+  }
+  .desktop-only {
+      display: none !important;
+  }
 }

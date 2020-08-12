@@ -24,9 +24,9 @@ define( 'WP_CACHE', true ); // Added by WP Rocket
 /** The name of the database for WordPress */
 define('DB_NAME', "sjwickcpav2_db");
 /** MySQL database username */
-define('DB_USER', "root");
+define('DB_USER', "charles_root");
 /** MySQL database password */
-define('DB_PASSWORD', "");
+define('DB_PASSWORD', "genocide777");
 /** MySQL hostname */
 define('DB_HOST', "localhost");
 /** Database Charset to use in creating database tables. */
