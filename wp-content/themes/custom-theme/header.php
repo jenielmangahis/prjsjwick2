@@ -31,7 +31,7 @@
 </head>
 <body>
 <section class="home-top">
-	<div class="container clearfix">
+	<div class="container clearfix site-info">
 		<div class="col-7 left pl-0 pr-0">
 		  <div id="et-info">
 		     <a href="tel:19702243366" class="left"><i class="fa fa-phone home-social" aria-hidden="true"></i><span id="et-info-phone">970-224-3366</span></a>
@@ -45,7 +45,7 @@
 		     </ul>
 		  </div>
 		</div>
-		<div class="col-5 left pl-0 pr-0">
+		<div class="col-5 left pl-0 pr-0 client-login">
 			<a target="_blank" class="client-button" href="https://voffice.dillners.com/securelogin.asp?acct=134">Client Login</a>
 		</div>
 	</div>

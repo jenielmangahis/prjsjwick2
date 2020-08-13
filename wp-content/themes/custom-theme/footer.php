@@ -43,7 +43,7 @@
         </div>
       </div>
   </footer>
-  <div class="footer-bottom col-12 pl-0 pr-0">
+  <div class="footer-bottom col-12 pl-0 pr-0 desktop-only">
     <div class="container clearfix pl-0 pr-0">
       <div class="col-7 left pl-0 pr-0">
         <span class="footer-copyright montserrat">Copyright All Rights Reserved © 2013 - <?php echo date("Y"); ?></span>
@@ -53,6 +53,20 @@
           <li><a href="https://www.facebook.com/sjwickcpa"><i class="fa fa-facebook home-social" aria-hidden="true"></i></a></li>
           <li><a href="http://www.linkedin.com/in/stevenwick" class="icon" target="_blank"><i class="fa fa-linkedin home-social" aria-hidden="true"></i></a></li>
         </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom col-12 pl-0 pr-0 mobile-only">
+    <div class="container clearfix pl-0 pr-0">
+      <div class="col-12 pl-0 pr-0">
+        <ul class="copyright-social">
+          <li><a href="https://www.facebook.com/sjwickcpa"><i class="fa fa-facebook home-social" aria-hidden="true"></i></a></li>
+          <li><a href="http://www.linkedin.com/in/stevenwick" class="icon" target="_blank"><i class="fa fa-linkedin home-social" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <br class="clearfix"/>
+      <div class="col-12 pl-0 pr-0 pt-2">
+        <span class="footer-copyright montserrat">Copyright All Rights Reserved © 2013 - <?php echo date("Y"); ?></span>
       </div>
     </div>
   </div>
@@ -71,7 +85,7 @@
         }
     });
   });
-  
+
 /*function init() {
   var vidDefer = document.getElementsByTagName('iframe');
   for (var i=0; i<vidDefer.length; i++) {
