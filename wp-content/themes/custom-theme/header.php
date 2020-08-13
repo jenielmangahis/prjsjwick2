@@ -80,39 +80,39 @@
 							<a href="#">About us</a>
 							<div class="sub-menu">
 								<div class="col-3 left">
-									<a class="bold no-carit" href="#">Services</a>
-									<a class="no-carit pointer" href="">Accounting &amp; Bookkeeping</a>
-									<a class="no-carit pointer" href="">Business Consulting</a>
-									<a class="no-carit pointer" href="">CFO Services</a>
-									<a class="no-carit pointer" href="">Payroll</a>
-									<a class="no-carit pointer" href="">QuickBooks Accounting</a>
-									<a class="no-carit pointer" href="">Small Business Package</a>
-									<a class="no-carit pointer" href="">Tax Service</a>
+									<a class="bold no-carit" href="javascript:void(0);">Services</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/accounting-bookkeeping'; ?>">Accounting &amp; Bookkeeping</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/business-consulting/'; ?>">Business Consulting</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/cfo-services'; ?>">CFO Services</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/payroll-services'; ?>">Payroll</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/quickbooks-accounting'; ?>">QuickBooks Accounting</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/small-business-package'; ?>">Small Business Package</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/tax-service'; ?>">Tax Service</a>
 								</div>
 								<div class="col-3 left">
-									<a class="bold no-carit" href="#">Industries</a>
-									<a class="no-carit pointer" href="">Construction Accounting</a>
-									<a class="no-carit pointer" href="">Manufacturing Accounting</a>
-									<a class="no-carit pointer" href="">Restaurant Business</a>
-									<a class="no-carit pointer" href="">Retail &amp; Wholesale Accounting</a>
+									<a class="bold no-carit" href="javascript:void(0);">Industries</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/construction'; ?>">Construction Accounting</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/manufacturing-accounting'; ?>">Manufacturing Accounting</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/restaurant-business'; ?>">Restaurant Business</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/retail-wholesale-accounting'; ?>">Retail &amp; Wholesale Accounting</a>
 								</div>
 								<div class="col-3 left">
-									<a class="bold no-carit" href="#">Our Office</a>
-									<a class="no-carit pointer" href="">About Us</a>
-									<a class="no-carit pointer" href="">Steve Wick</a>
-									<a class="no-carit pointer" href="">Staff Members</a>
-									<a class="no-carit pointer" href="">Testimonials</a>
-									<a class="no-carit pointer" href="">What’s Important to Us</a>
+									<a class="bold no-carit" href="javascript:void(0);">Our Office</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/our-office'; ?>">About Us</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/steve-wick'; ?>">Steve Wick</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/staff-members'; ?>">Staff Members</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/testimonials'; ?>">Testimonials</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/whats-important-to-us'; ?>">What’s Important to Us</a>
 								</div>
 								<div class="col-3 left">
-									<a class="bold no-carit" href="#">Serving Clients In</a>
-									<a class="no-carit pointer" href="">Loveland</a>
-									<a class="no-carit pointer" href="">Fort Collins</a>
-									<a class="no-carit pointer" href="">Windsor</a>
-									<a class="no-carit pointer" href="">Greeley</a>
-									<a class="no-carit pointer" href="">Wellington</a>
-									<a class="no-carit pointer" href="">Timnath</a>
-									<a class="no-carit pointer" href="">Berthoud</a>
+									<a class="bold no-carit" href="javascript:void(0);">Serving Clients In</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/loveland'; ?>">Loveland</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/fort-collins'; ?>">Fort Collins</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/windsor'; ?>">Windsor</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/greeley'; ?>">Greeley</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/wellington'; ?>">Wellington</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/timnath'; ?>">Timnath</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/berthoud'; ?>">Berthoud</a>
 								</div>
 							</div>
 						</li>
@@ -140,9 +140,10 @@
 									<a class="no-carit pointer" href="https://sjwickcpa.com/wp-content/uploads/2017/02/2016-Ind-Tax-Organizer.pdf">Personal Income Tax Organizer</a>
 								</div>
 								<div class="col-3 left">
-									<a class="bold no-carit" href="#">Taxes &amp; Tips</a>
-									<a class="no-carit pointer" href="">Tips for Business Owners</a>
-									<a class="no-carit pointer" href="">Blog</a>
+									<a class="bold no-carit" href="javascript:void(0);">Taxes &amp; Tips</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/berthoud'; ?>">Tax Due Dates</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/tax-due-duties'; ?>">Tips for Business Owners</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/blog'; ?>">Blog</a>
 								</div>
 							</div>
 						</li>
@@ -150,7 +151,7 @@
 							<a href="#">Support</a>
 							<div class="sub-menu-small">
 								<div class="col-12 left">
-									<a class="no-carit pointer" href="http://www.uscis.gov/sites/default/files/files/form/i-9.pdf">Teamviewer</a>
+									<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/teamviewer'; ?>">Teamviewer</a>
 								</div>
 							</div>
 						</li>

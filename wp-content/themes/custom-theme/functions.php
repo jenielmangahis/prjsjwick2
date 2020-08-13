@@ -651,4 +651,7 @@ function js_async_attr($tag){
 }
 //add_filter( 'script_loader_tag', 'js_async_attr', 10 );
 
+// ACF Display Custom Fields
+add_filter('acf/settings/remove_wp_meta_box', '__return_false');
+
 
