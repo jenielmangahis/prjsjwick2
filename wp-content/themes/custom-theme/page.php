@@ -18,7 +18,7 @@
         <a class="call-contact" href="<?php echo get_bloginfo('url') . '/contact'; ?>">LET'S TALK</a>
       </div>
     </section>
-  	<div class="container page-content pl-0 pr-0 pt-4">
+  	<div class="container page-content pl-0 pr-0 pt-5 pb-5">
       <?php
           while ( have_posts() ) : the_post();
 
