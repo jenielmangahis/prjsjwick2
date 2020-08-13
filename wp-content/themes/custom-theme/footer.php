@@ -72,19 +72,26 @@
   </div>
 </div>
 <script>
-  $(function() {
-    $(document).on("scroll", function(){
-        if($(document).scrollTop() > 100){
-          $("#logo").addClass("shrink");
-          $(".nav-desktop").removeClass("cl-collapse");
-          $(".nav-desktop").addClass("cl-hide");
-        }else{
-          $("#logo").removeClass("shrink");
-          $(".nav-desktop").addClass("cl-collapse");
-          $(".nav-desktop").removeClass("cl-hide");
-        }
-    });
+$(function() {
+  $("i.fa-bars").click(function() {
+    if ($("section.mobile-menu").hasClass('hide')) {
+      $("section.mobile-menu").removeClass('hide');
+    } else {
+      $("section.mobile-menu").addClass('hide');
+    }
   });
+  $(document).on("scroll", function(){
+      if($(document).scrollTop() > 100){
+        $("#logo").addClass("shrink");
+        $(".nav-desktop").removeClass("cl-collapse");
+        $(".nav-desktop").addClass("cl-hide");
+      }else{
+        $("#logo").removeClass("shrink");
+        $(".nav-desktop").addClass("cl-collapse");
+        $(".nav-desktop").removeClass("cl-hide");
+      }
+  });
+});
 
 /*function init() {
   var vidDefer = document.getElementsByTagName('iframe');

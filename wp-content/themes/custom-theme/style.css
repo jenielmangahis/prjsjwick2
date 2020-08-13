@@ -25,7 +25,7 @@ Version: 1.0
    Main
 \*------------------------------------*/
 .mobile-only {
-    display: none !important;
+    display: none;
 }
 .desktop-only {
     display: block;
@@ -48,6 +48,9 @@ Version: 1.0
 }
 .uppercase {
     text-transform: uppercase;
+}
+.hide {
+    display: none !important;
 }
 /* END OF MAIN CSS */
 /* HOME CSS */
@@ -105,6 +108,42 @@ a:hover, a:hover > i {
     position: fixed;
     z-index: 2;
 }
+section.mobile-menu {
+    padding-top: 20px;
+}
+ul#header-mobile-menu {
+    list-style: none;
+    color: black;
+    padding: 0px !important;
+}
+.mobile-sub a {
+    border-bottom: 1px solid #a7a7a71a;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    display: block;
+    width: 100%;
+}
+.mobile-sub {
+    margin-top: 14px;
+}
+.mobile-sub a.header {
+    width: 95%;
+    float: right;
+}
+.mobile-sub a.pointer {
+    width: 85%;
+    float: right;
+}
+ul#header-mobile-menu li {
+    border-bottom: 1px solid #a7a7a71a;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+ul#header-mobile-menu li a {
+    color: black !important;
+    font-size: 15px;
+    font-family: 'Oxygen',Helvetica,Arial,Lucida,sans-serif;
+}
 .home-navigation {
     position: fixed;
     width: 100%;
@@ -117,6 +156,31 @@ a:hover, a:hover > i {
     box-shadow: -1px 7px 7px 0px rgb(0 0 0 / 32%);
     -webkit-box-shadow: -1px 7px 7px 0px rgb(0 0 0 / 32%);
     -moz-box-shadow: -1px 7px 7px 0px rgb(0 0 0 / 32%);
+}
+.home-navigation-mobile {
+    width: 100%;
+    z-index: 99;
+    background: white;
+}
+.logo-default-mobile {
+    max-height: 43px;
+    width: 100%;
+}
+section.home-navigation-mobile {
+    padding: 20px 23px;
+    background: white;
+    box-shadow: 2px 2px 7px 0px rgb(0 0 0 / 13%);
+    -webkit-box-shadow: 2px 2px 7px 0px rgb(0 0 0 / 13%);
+    -moz-box-shadow: 2px 2px 7px 0px rgb(0 0 0 / 13%);
+    height: 86px;
+}
+i#mobile-bars {
+    float: right;
+    font-size: 24px;
+    font-weight: 100 !important;
+    padding-top: 11px;
+    padding-right: 13px;
+    color: #002734;
 }
 .logo-default {
     max-height: 100%;
@@ -693,7 +757,7 @@ h1.sc-title {
     overflow-x: hidden;
   }
   .mobile-only {
-      display: block !important;
+      display: block;
   }
   .desktop-only {
       display: none !important;
@@ -701,11 +765,29 @@ h1.sc-title {
 }
 
 @media (max-width: 800px) {
+  iframe {
+    width: 100%;
+  }
+  img.img-contact-sr {
+    width: 100%;
+  }
   footer#main-footer div div.col-4 {
     width: 100% !important;
     max-width: 100% !important;
     text-align: center;
     padding-right: 0px !important;
+    padding-top: 40px;
+  }
+  div.page-content div.col-6 {
+    padding: 0 30px !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  ul.contact-form > li > div > div.col-6, ul.contact-form > li > div.col-6 {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0px !important;
   }
   footer#main-footer div div.col-4 div#media_image-2 a img {
     max-width: 98%;
@@ -864,8 +946,20 @@ h1.sc-title {
     margin-bottom: 30px !important;
   }
   .body-content {
-      padding-top: 120px;
+      padding-top: 5px;
       z-index: 1;
+  }
+  a.no-carit {
+    text-transform: capitalize;
+    color: black !important;
+    font-size: 15px !important;
+    padding-bottom: 0px !important;
+    letter-spacing: 1px;
+    font-style: normal;
+    display: block;
+    width: 100%;
+    padding-bottom: 12px !important;
+    font-family: 'Oxygen',Helvetica,Arial,Lucida,sans-serif
   }
 }
 

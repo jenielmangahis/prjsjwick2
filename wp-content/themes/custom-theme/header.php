@@ -50,10 +50,117 @@
 		</div>
 	</div>
 </section>
+<section class="home-navigation-mobile mobile-only">
+	<?php
+		$custom_logo_id = get_theme_mod( 'custom_logo' );
+		$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+	?>
+	<div class="navigation-container">
+		<div class="col-6 left pl-0 pr-0 home-logo">
+			<a href="<?php echo get_permalink( get_page_by_path( 'home' ) ); ?>">
+				<img src="<?= $image[0]; ?>" class="logo-default-mobile" />
+			</a>
+		</div>
+		<div class="col-6 left pl-0 pr-0">
+			<i class="fa fa-bars" id="mobile-bars" aria-hidden="true"></i>
+		</div>
+	</div>
+</section>
+
+<section class="mobile-only mobile-menu hide">
+	<div class="col-12 pl-4 pr-4">
+		<ul id="header-mobile-menu" class="header-mobile-menu pos-inherit">
+				<li class="menu-item-mobile"><a href="#">Home</a></li>
+				<li class="menu-item-mobile carit pos-inherit gray-out">
+					<a href="#">About us</a>
+					<div class="sub-menu-mobile">
+						<div class="col-12 pl-0 pr-0 mobile-sub left">
+							<a class="no-carit header" href="javascript:void(0);">Services</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/accounting-bookkeeping'; ?>">Accounting &amp; Bookkeeping</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/business-consulting/'; ?>">Business Consulting</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/cfo-services'; ?>">CFO Services</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/payroll-services'; ?>">Payroll</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/quickbooks-accounting'; ?>">QuickBooks Accounting</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/small-business-package'; ?>">Small Business Package</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/services/tax-service'; ?>">Tax Service</a>
+						</div>
+						<div class="col-12 pl-0 pr-0 mobile-sub left">
+							<a class="no-carit header" href="javascript:void(0);">Industries</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/construction'; ?>">Construction Accounting</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/manufacturing-accounting'; ?>">Manufacturing Accounting</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/restaurant-business'; ?>">Restaurant Business</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/retail-wholesale-accounting'; ?>">Retail &amp; Wholesale Accounting</a>
+						</div>
+						<div class="col-12 pl-0 pr-0 mobile-sub left">
+							<a class="no-carit header" href="javascript:void(0);">Our Office</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/our-office'; ?>">About Us</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/steve-wick'; ?>">Steve Wick</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/staff-members'; ?>">Staff Members</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/testimonials'; ?>">Testimonials</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/whats-important-to-us'; ?>">What’s Important to Us</a>
+						</div>
+						<div class="col-12 pl-0 pr-0 mobile-sub left">
+							<a class="no-carit header" href="javascript:void(0);">Serving Clients In</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/loveland'; ?>">Loveland</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/fort-collins'; ?>">Fort Collins</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/windsor'; ?>">Windsor</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/greeley'; ?>">Greeley</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/wellington'; ?>">Wellington</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/timnath'; ?>">Timnath</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/berthoud'; ?>">Berthoud</a>
+						</div>
+					</div>
+				</li>
+				<li class="menu-item-mobile carit gray-out">
+					<a href="#">Tools</a>
+					<div class="sub-menu">
+						<div class="col-12 pl-0 pr-0 mobile-sub left">
+							<a class="no-carit header" href="#">Forms for Payroll &amp; Employee Files</a>
+							<a class="no-carit pointer" href="http://www.uscis.gov/sites/default/files/files/form/i-9.pdf">Immigration I-9 Form</a>
+							<a class="no-carit pointer" href="http://www.irs.gov/pub/irs-pdf/fw4.pdf?portlet=3">W-4 Form</a>
+							<a class="no-carit pointer" href="https://voffice.dillners.com/resources/R134/Colorado%20Affirmation%20Form.pdf">Colorado Affirmative Action Form</a>
+							<a class="no-carit pointer" href="http://www.colorado.gov/cs/Satellite/CDLE-LaborLaws/CDLE/1240336908932">Colorado Employee Verification Requirements</a>
+						</div>
+						<div class="col-12 pl-0 pr-0 mobile-sub left">
+							<a class="no-carit header" href="#">Forms for Independent Contractors</a>
+							<a class="no-carit pointer" href="http://www.irs.gov/pub/irs-pdf/fw9.pdf?portlet=3">W9 For</a>
+							<a class="no-carit pointer" href="https://voffice.dillners.com/resources/R134/independent%20contractor%20form.pdf">Independent Contractors – Pinnacol Insurance</a>
+						</div>
+						<div class="col-12 pl-0 pr-0 mobile-sub left">
+							<a class="no-carit header" href="#">Orgainzers &amp; More</a>
+							<a class="no-carit pointer" href="https://voffice.dillners.com/resources/R134/YE%20Business%20Questionaire.pdf">Year End Income Tax Organizer</a>
+							<a class="no-carit pointer" href="http://www.ssa.gov/myaccount/">Online Social Security Statements</a>
+							<a class="no-carit pointer" href="https://voffice.dillners.com/resources/R134/Third%20Party%20Disclosurer%20Authorization.pdf">Third Party Authorization</a>
+							<a class="no-carit pointer" href="https://sjwickcpa.com/wp-content/uploads/2017/02/Year-End-W2.doc">Payroll &amp; 1099 Year End Info<</a>
+							<a class="no-carit pointer" href="https://sjwickcpa.com/wp-content/uploads/2017/02/2016-Ind-Tax-Organizer.pdf">Personal Income Tax Organizer</a>
+						</div>
+						<div class="col-12 pl-0 pr-0 mobile-sub left">
+							<a class="no-carit header" href="javascript:void(0);">Taxes &amp; Tips</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/areas-of-practice/berthoud'; ?>">Tax Due Dates</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/tax-due-duties'; ?>">Tips for Business Owners</a>
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/blog'; ?>">Blog</a>
+						</div>
+					</div>
+				</li>
+				<li class="menu-item-mobile carit gray-out">
+					<a href="#">Support</a>
+					<div class="sub-menu-small">
+						<div class="col-12 pl-0 pr-0 mobile-sub left">
+							<a class="no-carit pointer" href="<?php echo get_bloginfo('url') . '/teamviewer'; ?>">Teamviewer</a>
+						</div>
+					</div>
+				</li>
+				<li class="menu-item-mobile gray-out"><a href="<?php echo get_permalink( get_page_by_path( 'contact' ) ); ?>">Contact</a></li>
+				<li class="menu-item-mobile gray-out"><a href="<?php echo get_permalink( get_page_by_path( 'contact' ) ); ?>">Client Login</a></li>
+				<!-- <li class="menu-item"><a href="#"><i class="fa fa-search search-nav" aria-hidden="true"></i></a></li> -->
+		</ul>
+	</div>
+</section>
+
 <section class="home-navigation desktop-only">
 	<?php
-	$custom_logo_id = get_theme_mod( 'custom_logo' );
-	$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+		$custom_logo_id = get_theme_mod( 'custom_logo' );
+		$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 	?>
 	<div class="navigation-container">
 		<div class="col-5 left pl-0 pr-0 home-logo">
