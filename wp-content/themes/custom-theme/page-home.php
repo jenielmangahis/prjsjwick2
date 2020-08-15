@@ -72,7 +72,7 @@ Template Name: Homepage
     <br class="clearfix"/>
   </div>
 </section>
-<section class="home-services-b">
+<section class="home-services-b desktop-only">
   <div class="container-mountain">
   </div>
 </section>

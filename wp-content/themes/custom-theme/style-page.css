@@ -1,0 +1,29 @@
+img.default {
+    width: 100% !important;
+}
+@media (max-width: 760px) {
+  .col-6.left.pl-0.pr-0.home-logo, .navigation-container .col-6 {
+    width: 50% !important;
+    float: left !important;
+  }
+  input.transparent-brown {
+    margin-bottom: 17px;
+  }
+  .fuscha-card-pattern {
+    height: auto !important;
+    padding-bottom: 80px;
+    clear: both;
+  }
+  a.client-button {
+    display: none !important;
+  }
+   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
+    float: none !important;
+  }
+  .sv-background {
+    display: block !important;
+  }
+}

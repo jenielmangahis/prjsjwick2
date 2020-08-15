@@ -16,8 +16,12 @@
       </div>
       <div class="col-4 left sr-2">
         <div id="media_image-2" class="fwidget et_pb_widget widget_media_image">
-           <a href="https://sjwickcpa.com">
-              <img width="367" height="286" src="https://sjwickcpa.com/wp-content/uploads/2018/07/stacked-logo.png" class="image wp-image-1367 attachment-full size-full lazyloaded" alt="" style="max-width: 98%; height: auto;" sizes="(max-width: 367px) 100vw, 367px" srcset="https://sjwickcpa.com/wp-content/uploads/2018/07/stacked-logo.png 367w, https://sjwickcpa.com/wp-content/uploads/2018/07/stacked-logo-300x234.png 300w" data-ll-status="loaded">
+           <a href="<?php echo get_permalink( get_page_by_path( 'home' ) ); ?>">
+               	<?php
+            		$custom_logo_id = get_theme_mod( 'custom_logo' );
+            		$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+	            ?>
+              <img src="http://holisticwebdevelopment3.com/sjwickcpav2/wp-content/uploads/2020/08/stacked-logo-1.png" class="footer-img-sc lazyloaded" alt="" style="max-width: 98%; height: auto;">
            </a>
         </div>
       </div>

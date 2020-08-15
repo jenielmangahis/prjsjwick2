@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('pages'); ?>
 <section class="page-content">
   <div class="col-12 pr-0 pl-0 home-nav-container">
     <section class="page-cover size-cover">
@@ -52,4 +52,4 @@
   </section>
 </section>
 
-<?php get_footer('pages'); ?>
+<?php get_footer(); ?>
